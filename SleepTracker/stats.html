@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLEEPTRACKER</title>
+    <link rel="stylesheet" href="stats.css">
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">SLEEPTRACKER</a>
+        <ul>
+            <li><img src="assets/dp_image.jpg" alt="Not Available"></li>
+            <li><a href="#" id="username">username</a></li>
+        </ul>
+    </header>
+    <div class="sidebar">
+        <img src="assets/Logo.png" alt="Not Available">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Stats</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Log-Out</a></li>
+        </ul>
+    </div>
+    <h1 id="topHeading">Sleeping Stat's </h1>
+    <div class="averageStats">
+        <div class="piechart">
+            <h3>Sleep Quality</h3>
+            <div class="pieChart">
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+        <div class="avgBed">
+            <h3>Average Bed Time</h3>
+            <h1>11:00 pm</h1>
+        </div>
+        <div class="avgWake">
+            <h3>Average Woke Time</h3>
+            <h1>6:00 am</h1>
+        </div>
+        <div class="avgTS">
+            <h3> Average Total Sleep Time :</h3>
+            <h1>7:15 Hours</h1>
+        </div>
+    </div>
+    <div class="graph">
+        <h1>Last 7 days sleeping times</h1>
+        <canvas id="barGraph"></canvas>
+    </div>
+    <h1>Suggestions from SLEEPTRACKER</h1>
+    <div class="Suggestions">
+        <div class="S1">
+            <h3>When to Sleep </h3>
+            <h1>11:15 pm</h1>
+        </div>
+        <div class="S2">
+            <h3>When to Wake </h3>
+            <h1>7:15 am</h1>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+    <script src="stats.js"></script>
+</body>
+
+</html>

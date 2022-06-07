@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229 229 247);
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+header .logo{
+    position: relative;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0px auto;
+    text-decoration: none;
+    letter-spacing: 2px ;
+    color: black;
+    font-family: 'Macondo', cursive;
+}
+header ul{
+    display: flex;
+    right: 0px;
+    top: 0px;
+    flex-direction: row;
+    list-style: none;
+}
+header ul li{
+    margin: 10px 10px ;
+    padding: 2px 2px ;
+}
+header ul li img{
+    width: 40px ;
+    height: 40px ;
+    border-radius: 20px ;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size:1.5rem;
+    font-weight: 500px ;
+    justify-content: center;
+    font-family: cursive;
+}
+header ul li a:hover{
+    text-decoration: underline;
+}
+.sidebar{
+    margin: 0px 0px ;
+    background-color: rgb(92 176 255);
+    width: 170px ;
+    height: 100vh;
+    position: fixed;
+    left: 0px ;
+    top: 0px ;
+    z-index: 5;
+}
+.sidebar img{
+    width: 80px ;
+    height: 80px ;
+    border-radius: 4rem;
+    margin: 4px 25px ;
+}
+.sidebar ul{
+    margin: 51px 27px;
+    margin-top: 70px;
+    list-style: none;
+}
+.sidebar ul li{
+    margin: 30px 2px ;
+
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 1.7rem ;
+    color: white;
+    font-family: sans-serif;
+}
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+h1{
+    margin:  40px auto ;
+    text-align: center;
+    font-family: 'Tiro Bangla', serif;
+}
+#topHeading{
+    margin-top: 120px ;
+}
+
+.averageStats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width: 80%;
+    margin-left: 220px  ;
+}
+
+#pieChart{
+    width: 60px ;
+    height: 60px  ;
+}
+.piechart,.avgBed,.avgWake,.avgTS{
+    text-align: center;
+}
+.avgBed,.avgWake,.avgTS{
+    margin-top: 70px ;
+}
+.graph{
+    width: 80%;
+    margin-left: 220px ;
+}
+.Suggestions{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 100px ;
+}
+.S1,.S2{
+    text-align: center;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
