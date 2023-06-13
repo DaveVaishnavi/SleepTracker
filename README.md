@@ -51,6 +51,10 @@ data entered by the user.
 
 ![2022-07-10 (9)](https://github.com/DaveVaishnavi/SleepTracker/assets/99636505/4a5190cf-5668-4f1d-a003-4d54fd14f0ac)
 
+![2022-07-10 (11)](https://github.com/DaveVaishnavi/SleepTracker/assets/99636505/0f5b51bf-7c79-4386-a250-e011d3f7d167)
+
+![2022-07-10 (14)](https://github.com/DaveVaishnavi/SleepTracker/assets/99636505/0b66836c-1927-4cd0-8b4d-a1cdeb6a4356)
+
 We also have an about us page that sums up about the features of our app.
 
 ![2022-07-10 (16)](https://github.com/DaveVaishnavi/SleepTracker/assets/99636505/91c251b5-786c-4bd3-8f33-9a70c74ff0a8)
