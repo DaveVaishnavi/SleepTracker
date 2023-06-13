@@ -13,7 +13,7 @@ suggestion about changing the sleep schedule.
 
 # Contributors
 
-Vipul
+Vipul<br/>
 Vaishnavi
 
 # Features and Interface:
@@ -69,14 +69,14 @@ We have taken care of the creation of duplicate sessions on a browser using
 PHP.
 
 # Tech-stack Used :
-HTML
-Vannila CSS
-Javascript ( CHART.JS library for graphs )
-ASP.net
-Shell
-PHP
-Django for experimenting
+HTML<br/>
+Vannila CSS<br/>
+Javascript ( CHART.JS library for graphs )<br/>
+ASP.net<br/>
+Shell<br/>
+PHP<br/>
+Django for experimenting<br/>
 
 # IDEs used :
-Atom
+Atom<br/>
 VS-code
