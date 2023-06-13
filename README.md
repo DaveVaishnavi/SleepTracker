@@ -1,4 +1,4 @@
-# SleepTracker ( Created by Vipul and Vaishnavi )
+# SleepTracker
 
 The way usage of phones and laptops is increasing, the sleep schedule of all age
 groups has experienced a hit. Students spending 10-12 hours of a day staring at
@@ -10,6 +10,11 @@ fail to do that. Here, we come to your rescue. We have developed a web app
 that allows a user to keep a track of his sleeping hours with our platform, get a
 pictorial representation of his day-by-day sleep hours, and an intelligent
 suggestion about changing the sleep schedule.
+
+# Contributors
+
+Vipul
+Vaishnavi
 
 # Features and Interface:
 
